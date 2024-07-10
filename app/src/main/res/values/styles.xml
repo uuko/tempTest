@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MaterialCalendarTheme" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="materialCalendarHeaderTitle">@style/HeaderTitle_Hide</item>
+
+    </style>
+
+    <style name="HeaderTitle_Hide" parent="@style/Widget.MaterialComponents.MaterialCalendar.HeaderTitle">
+        <item name="android:visibility">gone</item>
+    </style>
+</resources>
